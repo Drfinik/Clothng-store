@@ -240,7 +240,7 @@ a {
 .slider_background {
     max-width: 1600px;
     height: 665px;
-    background-image: url(/img/img-top.png);
+    background-image: url(./img/img-top.png);
     background-repeat: no-repeat;
 }
 
@@ -290,25 +290,25 @@ a {
     &_men {
         width: 560px;
         height: 542px;
-        background-image: url(/img/banner_men.png)
+        background-image: url(./img/banner_men.png)
     }
 
     &_accesories {
         width: 560px;
         height: 261px;
-        background-image: url(/img/banner_accesories.png)
+        background-image: url(./img/banner_accesories.png)
     }
 
     &_women {
         width: 560px;
         height: 261px;
-        background-image: url(/img/banner_women.png)
+        background-image: url(./img/banner_women.png)
     }
 
     &_kids {
         width: 560px;
         height: 542px;
-        background-image: url(/img/baner-kids.png)
+        background-image: url(./img/baner-kids.png)
     }
 
     &_right {
@@ -495,7 +495,7 @@ a {
 
 .subscribe {
     height: 438px;
-    background-image: url(/img/bgc__subscribe.png);
+    background-image: url(./img/bgc__subscribe.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
