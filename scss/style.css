@@ -220,7 +220,7 @@ a {
 .slider_background {
   max-width: 1600px;
   height: 665px;
-  background-image: url(/img/img-top.png);
+  background-image: url(../img/img-top.png);
   background-repeat: no-repeat;
 }
 
@@ -270,22 +270,22 @@ a {
 .banner-content_men {
   width: 560px;
   height: 542px;
-  background-image: url(/img/banner_men.png);
+  background-image: url(../img/banner_men.png);
 }
 .banner-content_accesories {
   width: 560px;
   height: 261px;
-  background-image: url(/img/banner_accesories.png);
+  background-image: url(../img/banner_accesories.png);
 }
 .banner-content_women {
   width: 560px;
   height: 261px;
-  background-image: url(/img/banner_women.png);
+  background-image: url(../img/banner_women.png);
 }
 .banner-content_kids {
   width: 560px;
   height: 542px;
-  background-image: url(/img/baner-kids.png);
+  background-image: url(../img/baner-kids.png);
 }
 .banner-content_right {
   display: flex;
@@ -459,7 +459,7 @@ a {
 
 .subscribe {
   height: 438px;
-  background-image: url(/img/bgc__subscribe.png);
+  background-image: url(../img/bgc__subscribe.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
