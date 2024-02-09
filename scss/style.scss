@@ -524,7 +524,7 @@ a {
 .feature-right_column-mini {
     margin: 0;
     flex-direction: column;
-    
+
 }
 
 
@@ -532,6 +532,7 @@ a {
     margin-right: 33px;
     padding-top: 30px;
 }
+
 .feature-right_img-mini {
     margin: 0 auto;
 }
@@ -545,6 +546,7 @@ a {
     letter-spacing: 0.025em;
     color: #fbfbfb;
 }
+
 .feature-right_title-mini {
     text-align: center;
 }
@@ -805,6 +807,7 @@ a {
 
 .breadcrumb {
     background-color: #f8f3f4;
+    margin-bottom: 0;
 }
 
 .breadcrumb-content {
@@ -1200,6 +1203,7 @@ input[type="range"]:active::-webkit-slider-thumb {
     font-weight: 400;
     color: #6f6e6e;
 }
+
 .pagination {
     margin-top: 64px;
     margin-bottom: 106px;
@@ -1208,6 +1212,7 @@ input[type="range"]:active::-webkit-slider-thumb {
     justify-content: space-between;
     align-items: center;
 }
+
 .page {
     margin: 0;
     display: flex;
@@ -1221,6 +1226,7 @@ input[type="range"]:active::-webkit-slider-thumb {
     border-radius: 3px;
     padding: 0 15px;
 }
+
 .page__numbers {
     font-size: 16px;
     line-height: 26px;
@@ -1228,24 +1234,29 @@ input[type="range"]:active::-webkit-slider-thumb {
     color: #c4c4c4;
     cursor: pointer;
 }
+
 .page__numbers:hover {
     color: #f16d7f;
 }
+
 .page__btn {
     font-size: 20px;
     line-height: 26px;
     font-weight: 700;
     color: #aaaaaa;
 }
+
 .page__btn:hover {
     color: #f16d7f;
 }
+
 .page__dots {
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
     color: #c4c4c4;
 }
+
 .bht-bottom {
     margin: 0;
     width: 150px;
@@ -1259,11 +1270,48 @@ input[type="range"]:active::-webkit-slider-thumb {
     font-weight: 700;
     color: #ef5b70;
 }
+
 .bht-bottom:hover {
-   border: none; 
-   background-color: #f16d7f;
-   color: #ffffff;
+    border: none;
+    background-color: #f16d7f;
+    color: #ffffff;
 }
+
 a:hover {
     color: #ef5b70;
+}
+
+.carousel-background {
+    background-color: #f7f7f7;
+    height: 777px;
+}
+
+.carousel-center {
+    width: $widthSite;
+}
+
+.carousel-control-prev-icon {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.14);
+}
+
+.carousel-control-next-icon {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.14);
+}
+
+.product-description {
+    width: $widthSite;
+    height: 730px;
+    position: relative;
+    &_content {
+        width: $widthSite;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        height: 730px;
+        position: absolute;
+        top: -75px;
+    }
 }
