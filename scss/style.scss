@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
+@import 'single_page';
 @import 'var';
 
 @import 'mixins';
@@ -268,6 +269,10 @@ a {
 
 .menu-link:hover {
     color: #f16d7f;
+}
+
+.main {
+    margin: 0 auto;
 }
 
 .slider {
@@ -1281,37 +1286,3 @@ a:hover {
     color: #ef5b70;
 }
 
-.carousel-background {
-    background-color: #f7f7f7;
-    height: 777px;
-}
-
-.carousel-center {
-    width: $widthSite;
-}
-
-.carousel-control-prev-icon {
-    width: 47px;
-    height: 47px;
-    background-color: rgba(42, 42, 42, 0.14);
-}
-
-.carousel-control-next-icon {
-    width: 47px;
-    height: 47px;
-    background-color: rgba(42, 42, 42, 0.14);
-}
-
-.product-description {
-    width: $widthSite;
-    height: 730px;
-    position: relative;
-    &_content {
-        width: $widthSite;
-        background-color: #ffffff;
-        border: 1px solid #eaeaea;
-        height: 730px;
-        position: absolute;
-        top: -75px;
-    }
-}

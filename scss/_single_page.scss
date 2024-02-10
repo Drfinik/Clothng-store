@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import 'var';
+
+@import 'mixins';
+
+.carousel-background {
+    background-color: #f7f7f7;
+    height: 777px;
+}
+
+.carousel-center {
+    width: $widthSite;
+}
+
+.carousel-control-prev-icon {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.14);
+}
+
+.carousel-control-next-icon {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.14);
+}
+
+.product-description {
+    width: $widthSite;
+    height: 730px;
+    position: relative;
+
+    &_content {
+        padding-top: 73px;
+        width: $widthSite;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        height: 730px;
+        position: absolute;
+        top: -75px;
+        text-align: center;
+    }
+
+    &_collection {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: $colorSelectSite;
+        margin-bottom: 14px;
+    }
+
+    &_stick-color {
+        width: 63px;
+        height: 3px;
+        background-color: $colorSelectSite;
+        margin-bottom: 17px;
+    }
+
+    &_title {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #4d4d4d;
+        padding-bottom: 67px;
+
+    }
+
+    &_txt {
+        max-width: 618px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #5e5e5e;
+        margin-bottom: 28px;
+    }
+
+    &_short {
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 44px;
+        margin-bottom: 37px;
+    }
+
+    &_author {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #b9b9b9;
+    }
+
+    &_author-color {
+        color: #2f2f2f;
+    }
+
+    &_price {
+        color: $colorSelectSite;
+        margin-bottom: 43px;
+    }
+
+    &_stick {
+        width: 642px;
+        height: 1px;
+        margin-bottom: 63px;
+    }
+
+    &_filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 53px;
+        margin-bottom: 28px;
+    }
+
+    &_filter-choice {
+        width: max-content;
+        margin: 0;
+    }
+
+    &_filter-choice_title {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #2f2f2f;
+    }
+
+    &_bnt {
+        width: 537px !important;
+        margin-bottom: 122px;
+
+    }
+
+    &_filter-choice_box {
+        width: 144px;
+        height: 35px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    &_filter-choice_box-cub {
+        width: 12px;
+        height: 12px;
+        background-color: #ef5b70; 
+        margin: 0 11px; 
+
+    }
+    &_filter-choice_box-txt {
+        margin: 0;
+        margin-right: 50px;
+    }
+}
