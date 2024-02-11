@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+@import 'var';
+@import 'mixins';
+
+.shopping-content {
+    width: $widthSite;
+    padding-top: 90px;
+
+    &_top-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    &_left {
+        margin: 0;
+        display: flex;
+        gap: 21px;
+    }
+
+    &_header-left_title {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.015em;
+        color: #222222;
+    }
+
+    &_right {
+        display: flex;
+        justify-content: space-between;
+        gap: 128px;
+        margin: 0;
+    }
+
+    &_header-right_title {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.015em;
+        color: #222222;
+    }
+
+    &_left-title {
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222;
+        padding-top: 15px;
+        padding-bottom: 38px;
+        margin: 0;
+
+    }
+
+    &_left-txt {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #575757;
+        margin: 0;
+    }
+
+    &_left-txt_span {
+        font-weight: 300;
+        color: #6f6e6e;
+    }
+}
